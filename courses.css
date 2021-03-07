@@ -1,0 +1,76 @@
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #EBF1F2;
+}
+
+.sidenav {
+    height: 100%;
+    width: 8%;
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left:0;
+    background-color: #6B6D89;
+    text-align: center;
+    padding-top: 1.5em;
+    font-size: 1.3em;
+    line-height: .5em;
+}
+
+.sidenav img {
+    width: 25%;
+    height: 25%;
+}
+
+.sidenav a:link {
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.sidenav p {
+    font-size: .5em;
+    color: white;
+}
+
+.course-container {
+    width: 92%;
+    float: right;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.course-item {
+    padding: 5px;
+    width: 8em;
+    height: 8em;
+    margin-top: 25px;
+    line-height: 4.5em;
+    color: white;
+    font-weight: bold;
+    font-size: 2.75em;
+    text-align: center;
+  }
+
+  .course-item:hover {
+      width: 9em;
+      height:9em;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2);
+      text-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  }
+
+  .top {
+      width: 100%;
+      float: left;
+      text-align: center;
+      font-size: 1.5em;
+      margin:0;
+  }
